@@ -95,7 +95,7 @@ class GitHubEmailFinder:
 
 def main():
     token = "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"  # Replace with your GitHub token
-    location = "Iran"  # Specify the location
+    location = "United States"  # Specify the location
 
     finder = GitHubEmailFinder(token, location)
     emails = finder.find_emails()
